@@ -30,7 +30,7 @@ const team = [
     }
 ]
 let developer = team.filter((value)=>{
-    return value.job == 'Developer'
+    return value.job == 'Developer';
 })
 console.log(developer);
 
